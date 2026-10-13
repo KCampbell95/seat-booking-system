@@ -26,7 +26,6 @@ public class SeatBooking {
             Seat seat = bookedSeatsList.get(i);
 
             if (seat.getSeatNumber().equals(seatNumber) && !seat.isCanceled()) {
-                System.out.println("Eh Look like  deh Seat yaah All BOOKED Up me G");
                 System.out.println("Seat is already booked ");
             }
         }
@@ -39,7 +38,6 @@ public class SeatBooking {
         // TODO 4: add the new seat to the bookedSeatsList
         bookedSeatsList.add(newSeat);
         // TODO 5: confirm the booking to the user
-        System.out.println("Eh Look like your seat got booked enuh me gad");
         System.out.println("Seat " + seatNumber + " has been booked successfully.");
     }
 
